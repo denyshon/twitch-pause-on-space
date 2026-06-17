@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Twitch pause icon">
+  <rect width="128" height="128" rx="24" fill="#9146ff"/>
+  <g transform="translate(20 20) scale(4)" fill="#ffffff">
+    <path d="M9.977 4.714h1.715v5.143H9.976zm4.715 0h1.714v5.143h-1.714zM4.406 0L.12 4.286v15.428h5.143V24l4.286-4.286h3.428L20.692 12V0zm14.571 11.143l-3.428 3.428H12.12l-3 3v-3H5.263V1.714h13.714Z"/>
+  </g>
+  <circle cx="94" cy="94" r="28" fill="#18181b"/>
+  <circle cx="94" cy="94" r="25" fill="#ffffff"/>
+  <circle cx="94" cy="94" r="21" fill="#18181b"/>
+  <rect x="84" y="80" width="7" height="28" rx="2" fill="#ffffff"/>
+  <rect x="97" y="80" width="7" height="28" rx="2" fill="#ffffff"/>
+</svg>
