@@ -4,6 +4,16 @@ Annoyed with Twitch's default Space behavior? We got you.
 
 This extension makes Space toggle playback on Twitch, just like on other platforms. Don't worry, nothing will break: we've implemented the same safeguards that Twitch uses, meaning that you can type in the chat and other fields as usual.
 
+## Add to any browser
+
+Install Twitch Pause on Space from:
+- [Addons.Mozilla.Org](https://addons.mozilla.org/firefox/addon/twitch-pause-on-space/)
+- [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/twitch-pause-on-space/ejgniecocdafhmdhhbpaedokkeilajij)
+- Opera Add-ons Store (*soon*)
+- This repo!
+
+Wanna see Twitch Pause on Space in Chrome Web Store? Consider [supporting me](https://github.com/sponsors/denyshon). The first $5 will be used for the registration fee, required to publish extensions in Chrome Web Store.
+
 ## What Twitch does
 
 Twitch uses the following function to toggle playback on keydown events:
@@ -66,7 +76,8 @@ this.stopCallback = (e) => (t, n, i) =>
 ```
 where ```e``` is the original ```this.mouseTrapInstance.stopCallback```.
 
-## What the extension does
+## What Twitch Pause on Space does
+
 The extension intercepts Space keydown/keyup events on Twitch domains and replaces them with the corresponding K keydown/keyup events (K is the key Twitch uses for the functionality we need).
 
 The extension also keeps Twitch safeguards in place, ignoring events in editable fields.
